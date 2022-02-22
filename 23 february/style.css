@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  font-size: 60px;
+}
+.commanders {
+  margin-top: 50px;
+  text-align: center;
+}
+.commanders__inner {
+  display: flex;
+  flex-wrap: wrap;
+}
+.commander {
+  width: 27%;
+  margin: 0 30px;
+}
+.commander > img {
+  width: 150px;
+  height: 200px;
+}
+.helicopters {
+  display: flex;
+  justify-content: space-between;
+}
+.helicopters > img {
+  width: 40%;
+}
